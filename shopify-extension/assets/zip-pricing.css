@@ -1,0 +1,58 @@
+.zip-price-widget {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 14px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.zip-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.zip-row {
+    display: flex;
+    gap: 10px;
+}
+
+#zip-code {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+}
+
+#check-price-btn {
+    background: #111827;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.price-card {
+    margin-top: 15px;
+    background: #f0fdf4;
+    border: 1px solid #86efac;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.price-label {
+    color: #374151;
+}
+
+.price-value {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.availability {
+    margin-top: 8px;
+    color: #15803d;
+}

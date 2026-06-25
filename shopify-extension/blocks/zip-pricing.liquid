@@ -1,0 +1,37 @@
+<div class="zip-price-widget">
+
+    <div class="zip-title">
+        Check Price For Your Location
+    </div>
+
+    <div class="zip-row">
+
+        <input
+            id="zip-code"
+            type="text"
+            placeholder="Enter ZIP Code">
+
+        <button id="check-price-btn">
+            Check Price
+        </button>
+
+    </div>
+
+    <div id="price-result"></div>
+
+</div>
+
+<script>
+window.productId = "{{ product.id }}";
+</script>
+
+{{ 'zip-pricing.js' | asset_url | script_tag }}
+{{ 'zip-pricing.css' | asset_url | stylesheet_tag }}
+
+{% schema %}
+{
+  "name": "ZIP Pricing Widget",
+  "target": "section",
+  "settings": []
+}
+{% endschema %}
