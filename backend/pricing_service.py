@@ -1,7 +1,7 @@
 ZIP_ADJUSTMENTS = {
-    "75028": 200,
-    "10001": 400,
-    "90210": 500
+    "75028": 500,
+    "10001": 1000,
+    "90210": 1500
 }
 
 
@@ -11,7 +11,7 @@ def calculate_price(
 
     adjustment = ZIP_ADJUSTMENTS.get(
         zip_code,
-        300
+        750
     )
 
     final_price = (

@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const response =
                 await fetch(
-                    "https://YOUR-RENDER-URL/pricing",
+                    "https://shopify-pricing-api-u5vu.onrender.com/pricing",
                     {
                         method: "POST",
                         headers: {
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
 
                     <div class="price-value">
-                        $${data.price}
+                        $${data.final_price}
                     </div>
 
                     <div class="availability">
